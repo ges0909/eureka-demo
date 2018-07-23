@@ -1,6 +1,8 @@
 server:
   port: 8761
 
+# tell the built-in Eureka client not to register with ‘itself’,
+# because our application should act as server only
 eureka:
   client:
     register-with-eureka: false
