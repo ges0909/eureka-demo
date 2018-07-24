@@ -35,4 +35,6 @@ Navigate to:
 * [http://localhost:8761/](http://localhost:8761/)
 * [http://localhost:8080/service-instances/my-microservice-name-defined-in-application-yaml](http://localhost:8080/service-instances/my-microservice-name-defined-in-application-yaml)
 
+## Gradle
 
+* [Multi Module Projects](https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/)
