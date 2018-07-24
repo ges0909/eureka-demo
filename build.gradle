@@ -26,6 +26,6 @@ allprojects {
 }
 
 dependencies {
-  compile project(':service')
+  compile project(':server')
   compile project(':client')
 }

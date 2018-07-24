@@ -2,7 +2,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-	baseName = 'eureka-client'
+	baseName = 'spring-cloud-eureka-client'
 	version = '0.0.1-SNAPSHOT'
 }
 
@@ -13,6 +13,7 @@ dependencyManagement {
 }
 
 dependencies {
+	compile project(':server')
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-web')

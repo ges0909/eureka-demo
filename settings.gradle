@@ -1,2 +1,2 @@
 include ':client'
-include ':service'
+include ':server'

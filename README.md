@@ -38,3 +38,15 @@ Navigate to:
 ## Gradle
 
 * [Multi Module Projects](https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/)
+
+```bash
+./gradlew build && ./gradlew :service:bootRun
+./gradlew build && ./gradlew :client:bootRun
+```
+
+### Spring Boot Gradle Plugin
+
+* collects all jars on classpath and builds a single _über-jar_
+* searches foe _main()_ to flag as runnable class
+* provides built-in dependency resolver to match Spring Boot dependencies
+  
