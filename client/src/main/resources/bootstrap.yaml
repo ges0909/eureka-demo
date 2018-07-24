@@ -1,0 +1,6 @@
+# 'Bootstrap.yaml' will be read earlier then 'application.yaml'. But
+# if the same property is defined in both files, then value defined
+# in 'application.yaml' # will win.
+spring:
+  application:
+    name: my-microservice-name-defined-in-bootstrap-yaml

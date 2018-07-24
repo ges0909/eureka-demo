@@ -3,6 +3,9 @@
 /.classpath
 /.settings
 /.project
+/gradlew
+/gradlew.bat
+/gradle/wrapper
 
 /client/.gradle
 /client/gradle

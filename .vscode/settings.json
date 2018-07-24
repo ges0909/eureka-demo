@@ -1,3 +1,4 @@
 {
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "projects.configPath": "C:\\Users\\schrager.INFINIT\\OneDrive\\vscode\\vscode_projects.json",
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
